@@ -8,7 +8,7 @@ I can’t promise this is perfect (e.g. there might be some numerical issues). I
 ## Installation
 You will need a working copy of [Python 3](https://www.python.org/downloads/) (it *might* work in Python 2, but I don't promise anything) and [git](https://git-scm.com/downloads).
 
-You can clone the repository on to your machine with `git clone git@bitbucket.org:MartinCapraro/2d-faraday-cage.git`
+You can clone the repository on to your machine with `git clone git@github.com:MartinCapraro/2d-faraday-cage.git`
 
 ## Usage
 Navigate to the directory where you cloned the repository. Then run `python faraday_gui.py` to open the tkinter GUI.
