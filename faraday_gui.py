@@ -7,7 +7,7 @@ except ImportError:
     import tkinter as tk
 
 import numpy as np
-import matplotlib as mpl
+import matplotlib.pyplot as plt
 import matplotlib.backends.backend_tkagg as backend_tkagg
 import faraday_numerics
 import entry_boxes
@@ -24,7 +24,7 @@ class FaradayCageApplication(tk.Frame):
         self.frame.grid(row=4, column=0, columnspan=5)
 
         # Create a figure
-        self.fig = mpl.figure.Figure(figsize=(5, 4), dpi=125)
+        self.fig = plt.figure(figsize=(5, 4), dpi=125)
 
         # Create a subplot
         self.sub_plt = self.fig.add_subplot(111)
