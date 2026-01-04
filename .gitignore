@@ -1,6 +1,5 @@
 *.pyc
 *.pyo
-*.txt
 *.csv
 .installed.cfg
 bin
