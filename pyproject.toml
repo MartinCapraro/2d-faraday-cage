@@ -1,0 +1,10 @@
+[project]
+name = "2d-faraday-cage"
+version = "1.0.0"
+description = "A simple simulation of a 2D Faraday cage, with a tkinter GUI"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.0",
+]

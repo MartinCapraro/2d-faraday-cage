@@ -6,12 +6,12 @@ I hope that someone will find it useful, informative, and/or entertaining in som
 I can’t promise this is perfect (e.g. there might be some numerical issues). If you find a a bug, feel free to log a ticket - or better yet, create a PR! There’s a lot of low-hanging fruit that can be added, feature wise. It goes without saying that any errors of this nature are due to myself, and not the authors of the above paper, whom I do not know.
 
 ## Installation
-You will need a working copy of [Python 3](https://www.python.org/downloads/) (it *might* work in Python 2, but I don't promise anything) and [git](https://git-scm.com/downloads).
+You will need a working copy of [Python 3](https://www.python.org/downloads/) (it *might* work in Python 2, but I don't promise anything), [git](https://git-scm.com/downloads), and [`uv`](https://github.com/astral-sh/uv).
 
 You can clone the repository on to your machine with `git clone git@github.com:MartinCapraro/2d-faraday-cage.git`
 
 ## Usage
-Navigate to the directory where you cloned the repository. Then run `python faraday_gui.py` to open the tkinter GUI.
+Navigate to the directory where you cloned the repository. Then run `uv run faraday_gui.py` to open the tkinter GUI.
 
 You should be presented with something that looks like the following: 
 
